@@ -56,6 +56,7 @@ namespace CloudRMS
             app.UseRouting();
 
             app.UseAuthorization();
+            //enable Identity (Authentication vs Authorization ).
             app.UseAuthentication();
             app.UseEndpoints(endpoints =>
             {
