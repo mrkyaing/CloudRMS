@@ -7,25 +7,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CloudRMS.Controllers
-{
-    [Authorize]
-    public class PieController : Controller
-    {
+namespace CloudRMS.Controllers{
+    [Authorize(Roles = "Visitor")]
+    public class PieController : Controller{
         private readonly IPieRepository _pieRepositry;
         private readonly ICategoryRepository _categoryRepository;
 
-        public PieController(IPieRepository pieRepositry, ICategoryRepository categoryRepository)
-        {
+        public PieController(IPieRepository pieRepositry, ICategoryRepository categoryRepository){
             _pieRepositry = pieRepositry;
             _categoryRepository = categoryRepository;
         }
-
         public ViewResult List(){
-            var pies = new PieListViewModel()
-            {
-pies=_pieRepositry.AllPies,
-CurrentCategory="Cakes"
+            var pies = new PieListViewModel(){
+            pies=_pieRepositry.AllPies,
+            CurrentCategory="Cakes"
             };
           return  View(pies);
     }
