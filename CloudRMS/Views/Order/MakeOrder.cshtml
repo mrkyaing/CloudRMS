@@ -1,0 +1,36 @@
+﻿@model OrderModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <title>Make Order</title>
+</head>
+<body>
+    <input type="text" id="txtOrderId" />
+    <input type="button" id="btnMakeOrder" value="Make an Order" />
+    <script type="text/javascript">
+        $(function () {
+            $("#btnMakeOrder").click(function () {
+                var OrderModel = {};
+                OrderModel.Id = $("#txtOrderId").val();
+                $.ajax({
+                    type: "POST",
+                    url: "/Order/MakeOrder",
+                    data: OrderModel,
+                    success: function (response) {
+                        var data=JSON.stringify(response) ;
+                        alert("Your Submitted Data:"+data);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
