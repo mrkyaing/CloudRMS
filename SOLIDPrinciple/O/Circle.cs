@@ -9,7 +9,7 @@ namespace SOLIDPrinciple.O
     public class Circle : Shape
     {
         public double Radius { get; set; }
-        public override double Area()=> Radius * Radius * Math.PI;
+        public override double Area()=> Radius * Radius * 3.14;
 
     }
 }

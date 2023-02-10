@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudRMS", "CloudRMS\CloudRMS.csproj", "{F81E56EF-794A-4D78-B844-9E3FF83E27F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDPrinciple", "SOLIDPrinciple\SOLIDPrinciple.csproj", "{76CC3963-4A54-49F3-8AEB-3F0462B61B90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDPrinciple", "SOLIDPrinciple\SOLIDPrinciple.csproj", "{76CC3963-4A54-49F3-8AEB-3F0462B61B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDConsoleApp", "SOLIDConsoleApp\SOLIDConsoleApp.csproj", "{27382E66-4786-4472-B9DF-60B95C76EE49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDConsoleApp", "SOLIDConsoleApp\SOLIDConsoleApp.csproj", "{27382E66-4786-4472-B9DF-60B95C76EE49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudRMS.Test", "CloudRMS.Test\CloudRMS.Test.csproj", "{D6F63555-F590-471D-8D13-F5D4AD995C4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{27382E66-4786-4472-B9DF-60B95C76EE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27382E66-4786-4472-B9DF-60B95C76EE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27382E66-4786-4472-B9DF-60B95C76EE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

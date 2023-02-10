@@ -8,9 +8,10 @@ namespace SOLIDPrinciple.S
 {
     public class EmailService : IEmailService
     {
-        public void SendEmail(string email)
+        public string SendEmail(string email)
         {
             Console.WriteLine("seding email to "+email);
+            return email;
         }
     }
 }

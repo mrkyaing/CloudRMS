@@ -8,6 +8,6 @@ namespace SOLIDPrinciple.S
 {
     public interface IEmailService
     {
-        void SendEmail(string email);
+        string SendEmail(string email);
     }
 }
