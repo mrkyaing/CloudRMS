@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDPrinciple", "SOLIDPrin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLIDConsoleApp", "SOLIDConsoleApp\SOLIDConsoleApp.csproj", "{27382E66-4786-4472-B9DF-60B95C76EE49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudRMS.Test", "CloudRMS.Test\CloudRMS.Test.csproj", "{D6F63555-F590-471D-8D13-F5D4AD995C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudRMS.Test", "CloudRMS.Test\CloudRMS.Test.csproj", "{D6F63555-F590-471D-8D13-F5D4AD995C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionAppAuthWithJWT", "FunctionAppAuthWithJWT\FunctionAppAuthWithJWT.csproj", "{81DF07AD-111A-4DAF-AB58-C8B0BD3CDADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F63555-F590-471D-8D13-F5D4AD995C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DF07AD-111A-4DAF-AB58-C8B0BD3CDADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DF07AD-111A-4DAF-AB58-C8B0BD3CDADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DF07AD-111A-4DAF-AB58-C8B0BD3CDADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DF07AD-111A-4DAF-AB58-C8B0BD3CDADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

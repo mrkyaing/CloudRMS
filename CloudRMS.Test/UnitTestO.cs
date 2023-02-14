@@ -21,5 +21,40 @@ namespace CloudRMS.Test
             Assert.True(expectedResult.Equals(actualResult));
 
         }
+        [Fact]
+        public void AreaCalculatorRectangle_ReturnCorrectResult()
+        {
+            // Arrange  
+            double expectedResult = 100;
+            Shape shape = new Rectangle()
+            {
+                Width= 10,
+                Height= 10
+            };
+
+            // Act  
+            var areaCalculator = new AreaCalculator();
+            var actualResult = areaCalculator.GetArea(shape);
+            //Assert  
+            Assert.True(expectedResult.Equals(actualResult));
+
+        }
+        [Fact]
+        public void AreaCalculatorSquare_ReturnCorrectResult()
+        {
+            // Arrange  
+            double expectedResult = 4;
+            Shape shape = new Square()
+            {
+               side=2
+            };
+
+            // Act  
+            var areaCalculator = new AreaCalculator();
+            var actualResult = areaCalculator.GetArea(shape);
+            //Assert  
+            Assert.True(expectedResult.Equals(actualResult));
+
+        }
     }
 }

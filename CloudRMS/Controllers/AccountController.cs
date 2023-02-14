@@ -45,7 +45,7 @@ namespace CloudRMS.Controllers
                 }
                 return View(userModel);
             }
-            await _userManager.AddToRoleAsync(user, "Visitor");
+            await _userManager.AddToRoleAsync(user, "Administrator");
             return RedirectToAction(nameof(AccountController.Login), "Account");
         }
         [HttpGet]

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace CloudRMS.Controllers{
-    [Authorize(Roles = "Visitor")]
+    [Authorize(Roles = "Administrator")]
     public class PieController : Controller{
         private readonly IPieRepository _pieRepositry;
         private readonly ICategoryRepository _categoryRepository;
