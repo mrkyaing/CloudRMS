@@ -139,29 +139,29 @@ namespace CloudRMS.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5d8e2c88-0acf-4f26-ab6b-f1c193d5d7c2",
+                            Id = "c3b0ee45-af49-4355-9c0c-5b8a54b3dbf2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4eb7766c-7238-4d12-bb5e-20e3c29f6275",
+                            ConcurrencyStamp = "cf71c609-c19d-42e5-9afa-de9248725d20",
                             EmailConfirmed = false,
                             FirstName = "Mg",
                             LastName = "Kyaing",
                             LockoutEnabled = false,
                             PasswordHash = "admin",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "00971fab-7896-4c33-8fe4-cbc759d5882f",
+                            SecurityStamp = "ba4a4c31-60d6-4cc4-8f91-ed9a571647e7",
                             TwoFactorEnabled = false
                         },
                         new
                         {
-                            Id = "af3006be-2a29-4eea-8805-ebf641615f76",
+                            Id = "e3383e26-d296-4dd0-9ed7-e3be02190ead",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6eba844f-4b83-47d9-90e9-244d19a53e01",
+                            ConcurrencyStamp = "abb4edd8-54fe-4763-8407-486e0477fea4",
                             EmailConfirmed = false,
                             FirstName = "Saw ",
                             LastName = "Yu Nandar",
                             LockoutEnabled = false,
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0e78bf64-bb69-4642-a757-5126aace2d2b",
+                            SecurityStamp = "175c9657-348f-4058-897f-0d56650894da",
                             TwoFactorEnabled = false
                         });
                 });
@@ -195,15 +195,15 @@ namespace CloudRMS.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "40f8ffeb-1e69-4664-8498-99752bc90fe6",
-                            ConcurrencyStamp = "8241049b-f13c-4eed-9f2d-e0a9e10b6dfc",
+                            Id = "aa6f6ab3-d476-4f64-9f1c-60081976e541",
+                            ConcurrencyStamp = "a866c249-f512-4e7e-a0b9-29ca3bcb9ffb",
                             Name = "Visitor",
                             NormalizedName = "VISITOR"
                         },
                         new
                         {
-                            Id = "2af5b904-f999-404e-8dae-a17643febc78",
-                            ConcurrencyStamp = "ea508468-2e03-4295-80ce-edc9e597d8ff",
+                            Id = "5e47121c-e5a1-4ab6-8b51-95dd818f7de6",
+                            ConcurrencyStamp = "aca8e527-5fcb-4674-a285-ff1315cc21ce",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });
